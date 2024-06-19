@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
        return (
         <div >
           <h4> Home / { product.category } / { product.title } </h4>
-          <img src={product.image} alt="product image" />
+          <img src={product.image} alt="look at the product" />
           <dl className="mt2 f6 lh-copy">
             <dt className="clip">Title</dt>
             <dd className="ml0 black truncate w-100"> { product.title } </dd>
@@ -43,7 +43,8 @@ import { Link } from 'react-router-dom';
                   </div>   
                 );
             } 
-            })
+           return null;
+            }) 
             }
           </div>
         </div>

@@ -23,8 +23,8 @@ import { Link } from 'react-router-dom';
                        </dl>
                      <button onClick={()=>{addToCart(product.id)}}className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black">Add to cart</button>
                   </div>);
-            }
-           } )}
+            } return null;
+           }  )}
           </div>
 
       );
